@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import SearchForm from "../components/SearchForm";
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
+            <SearchForm />
           </Col>
         </Row>
         <Row>

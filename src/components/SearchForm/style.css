@@ -1,9 +1,15 @@
+form .form-group {
+  width: 20vw;
+  display: block;
+  margin: 0 auto;
+}
+
 form.search {
   overflow: auto;
   margin-bottom: 10px;
 }
 
-form.search button[type="submit"] {
+/* form.search button[type="submit"] {
   float: right;
   margin-top: 10px;
-}
+} */
