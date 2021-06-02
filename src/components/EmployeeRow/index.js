@@ -1,23 +1,24 @@
 import Row from "../Row";
 import Col from "../Col";
 
-function EmployeeRow() {
-    return (
+function EmployeeRow({ employeeData }) {
+  console.log({ employeeData });
+  return (
       <Row>
         <Col size="md-3">
-            <p>Image</p>
+            <img src ={employeeData.picture.large} />
           </Col>
           <Col size="md-3">
-            <p>Name</p>
+            <p>{`${employeeData.name.first} ${employeeData.name.last}`}</p>
           </Col>
           <Col size="md-3">
-            <p>Phone</p>
+            <p>{employeeData.phone}</p>
           </Col>
           <Col size="md-3">
-            <p>Email</p>
+            <p>{employeeData.email}</p>
           </Col>
           <Col size="md-3">
-            <p>DOB</p>
+            <p>{employeeData.dob.date}</p>
           </Col>
       </Row>
     );
