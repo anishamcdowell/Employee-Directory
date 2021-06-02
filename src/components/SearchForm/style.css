@@ -1,7 +1,9 @@
 form .form-group {
   width: 20vw;
   display: block;
-  margin: 0 auto;
+  margin: auto;
+  margin-bottom: 30px;
+
 }
 
 form.search {

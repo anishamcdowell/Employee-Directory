@@ -1,27 +1,7 @@
-import Row from "../Row";
-import Col from "../Col";
+import React from "react";
 
-function EmployeeRow({ employeeData }) {
-  console.log({ employeeData });
-  return (
-      <Row>
-        <Col size="md-3">
-            <img src ={employeeData.picture.large} />
-          </Col>
-          <Col size="md-3">
-            <p>{`${employeeData.name.first} ${employeeData.name.last}`}</p>
-          </Col>
-          <Col size="md-3">
-            <p>{employeeData.phone}</p>
-          </Col>
-          <Col size="md-3">
-            <p>{employeeData.email}</p>
-          </Col>
-          <Col size="md-3">
-            <p>{employeeData.dob.date}</p>
-          </Col>
-      </Row>
-    );
+function EmployeeRow(props) {
+  return <div className="row shadow p-3 mb-5 bg-white rounded border-top">{props.children}</div>;
 }
 
 export default EmployeeRow;
