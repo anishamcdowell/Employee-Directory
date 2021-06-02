@@ -7,8 +7,8 @@ function SearchForm(props) {
     <form className="search">
       <div className="form-group">
         <input
-          value={props.search}
-          onChange={props.handleInputChange}
+          value={props.searchState}
+          onChange={(e) => props.setSearchState(e.target.value)}
           name="employee"
           list="employees"
           type="text"
