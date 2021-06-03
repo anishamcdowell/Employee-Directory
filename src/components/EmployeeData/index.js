@@ -5,7 +5,7 @@ import Col from "../Col";
 function EmployeeResults({ employeeData }) {
   console.log({ employeeData });
   return (
-      <EmployeeRow class="employee-row">
+      <EmployeeRow>
         <Col size="md-2">
             <img src ={employeeData.picture.large} />
           </Col>

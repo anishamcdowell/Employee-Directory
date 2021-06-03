@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import SearchForm from "../components/SearchForm";
+import TableHeader from "../components/TableHeader";
 import EmployeeResults from "../components/EmployeeData";
 import API from "../utils/API";
 
@@ -46,6 +47,7 @@ function Home() {
             <SearchForm />
           </Col>
         </Row>
+        <TableHeader />
         {
           employeeState.employeeArray.map((employee) => {
             return (<EmployeeResults employeeData = {employee}/>)
