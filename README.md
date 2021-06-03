@@ -1,7 +1,8 @@
 # Employee Directory
 
-(Deployed Project)[]
-!(Screenshot)[]
+[Deployed Project]()
+
+![Screenshot](./public/employee-directory-screenshot.png)
 
 ## Overview
 
