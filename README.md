@@ -1,6 +1,6 @@
 # Employee Directory
 
-[Deployed Project]()
+[Deployed Project](https://anishamcdowell.github.io/Employee-Directory)
 
 ![Screenshot](./public/employee-directory-screenshot.png)
 
